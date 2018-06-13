@@ -5,3 +5,9 @@ go:
   - "1.8"
   - "1.10.x"
   - master
+
+script:
+  - go install
+  - go test -v
+  - env
+  - ls /
